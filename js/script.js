@@ -8,13 +8,11 @@ resposta.addEventListener('click', function(e) {
     } else {
         document.getElementById("mensage").innerHTML = ("Você errou! Tente novamente.");
         document.getElementById("resposta-div").innerHTML = ("<h1>?</h1>");
+        document.getElementById("resposta-div").style.backgroundColor = ("white");
     e.preventDefault();
     }
 
 });
-
-
-
 
 
 

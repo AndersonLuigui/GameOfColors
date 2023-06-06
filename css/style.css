@@ -137,17 +137,29 @@ nav ul li, a {
 }
 
 
-#resposta {
-    cursor: pointer;
-    border-radius: 4px;
-    width: 90px;
-    text-align: center;
-    border: solid 1px black;
 
-}
 
 #resposta:hover {
 
+}
+
+.btn {
+    margin: 80px 0px 0px 700px;
+    
+}
+
+#next {
+    background-color: aliceblue;
+    border: solid 1px black;
+    width: 3em;
+    height: 3em;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+#next a {
+    text-align: center;
+    padding: 13px;
 }
 
 footer {

@@ -9,7 +9,8 @@ body {
     background-color: aliceblue;
 }
 
-header {
+header {    
+    font-size: 13px;
     padding: 5px;
     text-align: center;
 }
@@ -37,7 +38,7 @@ nav ul li button {
 nav ul li button:hover {
     background-color: rgb(0, 0, 0);
     color: rgb(255, 253, 253);
-    border: solid 2px rgb(255, 255, 255);
+    border: 2px solid greenyellow;
 }
 
 nav ul li, a {
@@ -52,13 +53,13 @@ nav ul li, a {
     background-color: rgb(85, 83, 83);
     height: 500px;
     margin: 0px 200px 0px 200px;
-    display: grid;
+    justify-content: center;
     border: solid 2px black;
 
 }
 
 .container {
-    display: flex;
+    display:flex;
     justify-content: space-evenly;
     align-items: center;
     padding-top: 100px;
@@ -95,6 +96,7 @@ nav ul li, a {
 }
 
 .answers {
+    padding-top: 100px;
     text-align: center;
 
 }
@@ -115,7 +117,7 @@ nav ul li, a {
 .answers button:hover {
     background-color: rgb(0, 0, 0);
     color: rgb(255, 253, 253);
-    border: solid 2px rgb(255, 255, 255);
+    border: 2px solid greenyellow;
 }
 
 
@@ -140,9 +142,11 @@ nav ul li, a {
 
 
 #resposta:hover {
+    border: 2px solid greenyellow;
 
 }
 
+<<<<<<< HEAD
 .btn {
     margin: 80px 0px 0px 700px;
     
@@ -161,6 +165,8 @@ nav ul li, a {
     text-align: center;
     padding: 13px;
 }
+=======
+>>>>>>> 955276c35c59cac95e5da21d026bdb0b03a59ecc
 
 footer {
     padding-top: 8px;
@@ -178,4 +184,25 @@ footer img {
 
 footer ul li {
     list-style: none;
+}
+.button-next {
+    margin: 50px 200px 0px 85
+    
+    0px;
+    background-color: aqua;
+    text-align: center;
+}
+.button-next button{
+    width: 50px;
+    height: 50px;
+    border-radius: 3px;
+    border: 2px solid black;
+    color: black;
+
+}
+
+.button-next button:hover {
+    background-color: black;
+    color: white;
+    border: 2px solid greenyellow;
 }

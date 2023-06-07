@@ -65,8 +65,22 @@ nav ul li, a {
     padding-top: 100px;
 }
 
-.color-a,.color-b,.color-r {
+.color-a,.color-b,.color-r,.color-c, .color-d {
     border-radius: 8px;
+}
+
+.color-c {
+    border: solid 2px black;
+    background-color: red;
+    width: 180px;
+    height: 100px;
+}
+
+.color-d {
+    border: solid 2px black;
+    background-color: yellow;
+    width: 180px;
+    height: 100px;
 }
 
 .color-a {
@@ -120,8 +134,6 @@ nav ul li, a {
     border: 2px solid greenyellow;
 }
 
-
-
 .answers h1 {
     padding: 10px;
 }
@@ -138,17 +150,13 @@ nav ul li, a {
     color: white;
 }
 
-
-
-
 #resposta:hover {
     border: 2px solid greenyellow;
 
 }
 
-<<<<<<< HEAD
 .btn {
-    margin: 80px 0px 0px 700px;
+    margin: 30px 0px 0px 750px;
     
 }
 
@@ -162,11 +170,10 @@ nav ul li, a {
 }
 
 #next a {
+    color: black;
     text-align: center;
     padding: 13px;
 }
-=======
->>>>>>> 955276c35c59cac95e5da21d026bdb0b03a59ecc
 
 footer {
     padding-top: 8px;
@@ -185,24 +192,4 @@ footer img {
 footer ul li {
     list-style: none;
 }
-.button-next {
-    margin: 50px 200px 0px 85
-    
-    0px;
-    background-color: aqua;
-    text-align: center;
-}
-.button-next button{
-    width: 50px;
-    height: 50px;
-    border-radius: 3px;
-    border: 2px solid black;
-    color: black;
 
-}
-
-.button-next button:hover {
-    background-color: black;
-    color: white;
-    border: 2px solid greenyellow;
-}
